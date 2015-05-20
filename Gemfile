@@ -32,6 +32,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 group :production do 
+  # Use postgres on production
   gem 'pg'
   gem 'rails_12factor'
 end
