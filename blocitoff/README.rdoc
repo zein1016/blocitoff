@@ -1,0 +1,43 @@
+== README
+
+
+# Blocitoff
+
+Blocitoff will aim to keep to-do lists manageable by automatically deleting to-do items that have not been completed after seven days. The hypothesis is that if the to-do item is not important enough to be completed in seven days, it doesn't belong on your to-do list.
+
+github: [blocitoff](https://github.com/zein1016/blocitoff)
+
+## User Story  
+- As a user, I want to sign up for a free account by providing a user name, password and email  
+- As a user, I want to sign in and out of Blocitoff 
+- As a user, I want to see my profile page  
+- As a user, I want to create multiple to-do items  
+- As a developer, I want to seed the development database automatically with users and to-do items  1
+- As a user, I want to mark to-do items as complete and have them deleted 
+- As a user, I want to see how many days remain before a to-do item is automatically deleted  
+- As a user, my to-dos should be automatically deleted seven days after their creation date 
+
+
+
+Things you may want to cover:
+
+* ruby 2.2.0p0
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+
