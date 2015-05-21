@@ -8,6 +8,8 @@ Blocitoff will aim to keep to-do lists manageable by automatically deleting to-d
 App:
 github: [blocitoff](https://github.com/zein1016/blocitoff)
 
+heroku: https://blocitoff-zein.herokuapp.com/
+
 ## User Story  
 - As a user, I want to sign up for a free account by providing a user name, password and email  
 - As a user, I want to sign in and out of Blocitoff 
