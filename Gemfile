@@ -7,6 +7,9 @@ gem 'rails', '4.2.1'
 # Add test database with gem 'faker'
 gem 'faker'
 
+# Adding Figaro gem for handling sensitive data
+gem 'figaro', '1.0'
+
 # Adding Devise Gem 
 gem 'devise'
 
