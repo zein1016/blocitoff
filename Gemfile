@@ -7,6 +7,9 @@ gem 'rails', '4.2.1'
 # Add test database with gem 'faker'
 gem 'faker'
 
+# Adding Devise Gem 
+gem 'devise'
+
 # Adding bootstrap gem
 gem 'bootstrap-sass'
 
