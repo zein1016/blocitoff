@@ -1,4 +1,11 @@
- @import "bootstrap-sprockets";
- @import "bootstrap";
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
- 
+.jumbotron { 
+  background-image: image-url("main.png");
+  background-repeat: no-repeat;
+}
+
+.img-circle {
+  border-radius: 3em;
+}

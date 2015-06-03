@@ -9,14 +9,13 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container-fluid">
   <ul class="nav nav-tabs">
     <li><%= link_to "Home", welcome_home_path %></li>
     <li><%= link_to "My Todos", welcome_todos_path%></li>
   </ul>
-
  <%= yield %>
 </div>
-
+</div>
 </body>
 </html>
