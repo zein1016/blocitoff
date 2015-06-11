@@ -6,7 +6,8 @@ feature "User signs up", type: :feature do
 
     click_link "Sign up"
     expect(current_path).to eq(new_user_registration_path)
-
+    fill_in "Name", with: "Zein"
+    fill_in "Surname", with: "Khalifeh"
     fill_in "Email", with: "tester@example.tld"
     fill_in "Password", with: "test-password"
     fill_in "Password confirmation", with: "test-password"
@@ -30,7 +31,7 @@ feature "User signs up", type: :feature do
 
     expect(current_path).to eq "/"
     expect(page).to have_content "Signed in successfully."
-    expect(page).to have_content "Hello, tester@example.tld"
+    expect(page).to have_content "Hello Zein"
 
 
   end
